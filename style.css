@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* font-family: sans-serif; */
+    box-sizing: border-box;
+}
+ul{
+    list-style-type: none;
+}
+.d-flex{
+    background-color: rgb(66, 95, 180);
+    color: white;
+    font-size: 11px;
+    
+}
+.p-2{
+    display: inline-block;
+    
+    margin: 0 20px ;
+
+}
+.p-2 i{
+    margin-left: 20px;
+}
+button{
+    color: green;
+    text-decoration : none;
+    border:1px solid green;
+    background-color: white;
+    padding: 1px;
+}
+.navbar{
+    
+    background-color:white ;
+    display: inline;
+    float: right;
+    
+}
+
+.navbar ul li a{
+    padding:  10px;
+    
+    text-decoration:none ;
+    line-height: 10px;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+}
+nav li:focus{
+    background-color: royalblue;
+    color: white !important;
+}
+.navbar ul li:hover{
+    background-color: rgb(66, 95, 180);
+    color: white !important;
+}
+ 
+
+.dropdown-menu{
+    line-height: 30px;
+}
+.move{
+    background-color: royalblue;
+    color: white;
+}
+.date{
+    color: lawngreen;
+}
+b{
+    color: blue;
+}
+
+.para p{
+font-size: 15px;
+color: gray;
+line-height: 25px;
+text-align: justify;
+}
+.para h2{
+    text-align:center;
+    font-family: 'Open Sans';
+font-weight: 200px;
+line-height: 10px;
+}
+.para h2 b{
+    color: green;
+}
+.para h2 strong{
+    color: royalblue;
+}  
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  } 
+.services p{
+    color: white;
+    text-align: center;
+}
+.services p b{
+    color: rgb(26, 155, 26);
+}
+.services .h2{
+  font-weight: 500px;
+}
+.mission u{
+    margin-left: 80px; 
+}
+ 
+
+.page-footer{
+    background-color: rgb(37, 39, 46);
+    color: white;
+    
+}
+.container-fluid{
+    height: 400px;
+}
+.page-footer li{
+ /* display: inline; */
+ margin: 10px;
+}
+.pb-40{
+    padding-bottom: 40px;
+}
+.pt-70{
+ padding-top: 70px;
+}
+
+.Connect ul li{
+    display: inline;
+}
+.Connect ul li i{
+    padding: 10px;
+ border-radius: 20px 20px 20px 20px;
+ background-color: royalblue;
+}
+.footer-copyright{
+    background-color: rgb(9, 130, 211);
+    font-size: 12px;
+}
